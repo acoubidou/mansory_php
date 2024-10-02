@@ -109,7 +109,15 @@ footer {
     margin-bottom: 500px;
 }
                                         /*     ---     PAGE COMPARATEUR     ---     */
+.compar_gauche {
 
+}
+.compar_gauche_titre {
+
+}
+.compar_droite {
+
+}
                                         /*     ---     PAGE MARQUE     ---     */
 .logoMarques {
     transition: all 1s ease;
