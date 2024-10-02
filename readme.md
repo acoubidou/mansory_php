@@ -13,3 +13,5 @@ Libraires : Bootstrap - PHPMailer
 Première version : Novembre 2023 (Uniquement HTML/CSS/JS)
 Deuxième version : Février 2024  (Ajout du PHP)
 Troisième version : Septembre 2024 (Synchronisation et utilisation de GitHub)
+
+A faire : Automatiser les 20 accordeons avec php
