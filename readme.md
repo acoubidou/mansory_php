@@ -2,7 +2,9 @@
 
 Par Sami ACHBANI - 2023/2024
 
-Le projet Mansory est le projet d'un site web présentant le préparateur allemand mansory et qui a été fait pour le projet numéro 1 de la formation "Développeur Web et Web Mobile" au CCI Campus de Colmar.
+Le projet Mansory est le projet d'un site web présentant le préparateur allemand mansory et qui a été fait pour le projet numéro 1 de la formation "Développeur Web et Web Mobile" au CCI Campus de Colmar.  
+Le site est en ligne, et vous pouvez le trouver à l'adresse suivante :  
+https://samiachbani.fr/mansory_php/
 
 Languages : HTML - CSS - JS - PHP  
 Libraires : Bootstrap - PHPMailer
