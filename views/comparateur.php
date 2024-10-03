@@ -16,567 +16,66 @@
                     <div class="compar_gauche_titre d-flex justify-content-center pb-5">Choisir la première voiture</div>
 
                     <div class="accordion pb-5" id="accordionExample1">
-                        <!--     PREMIER ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                Accordeon Item #1
-                            </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                            <div class="accordion-body d-flex justify-content-around">
-                                <div class="card" style="width: 15rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 15rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <!--     DEUXIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                Accordeon Item #2
-                            </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     TROISIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                Accordeon Item #3
-                            </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     QUATRIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                Accordeon Item #4
-                            </button>
-                            </h2>
-                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     CINQUIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                                Accordeon Item #5
-                            </button>
-                            </h2>
-                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     SIXIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                Accordeon Item #6
-                            </button>
-                            </h2>
-                            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     SEPTIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                                Accordeon Item #7
-                            </button>
-                            </h2>
-                            <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     HUITIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
-                                Accordeon Item #8
-                            </button>
-                            </h2>
-                            <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     NEUVIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
-                                Accordeon Item #9
-                            </button>
-                            </h2>
-                            <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     DIXIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
-                                Accordeon Item #10
-                            </button>
-                            </h2>
-                            <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     ONZIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
-                                Accordeon Item #11
-                            </button>
-                            </h2>
-                            <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     DOUZIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
-                                Accordeon Item #12
-                            </button>
-                            </h2>
-                            <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     TREIZIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
-                                Accordeon Item #13
-                            </button>
-                            </h2>
-                            <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     QUATORZIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
-                                Accordeon Item #14
-                            </button>
-                            </h2>
-                            <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     QUINZIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
-                                Accordeon Item #15
-                            </button>
-                            </h2>
-                            <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     SEIXIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
-                                Accordeon Item #16
-                            </button>
-                            </h2>
-                            <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     DIX SEPTIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
-                                Accordeon Item #17
-                            </button>
-                            </h2>
-                            <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     DIX HUITIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="true" aria-controls="collapse18">
-                                Accordeon Item #18
-                            </button>
-                            </h2>
-                            <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     DIX NEUVIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
-                                Accordeon Item #19
-                            </button>
-                            </h2>
-                            <div id="collapse19" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     VINGTIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="true" aria-controls="collapse20">
-                                Accordeon Item #20
-                            </button>
-                            </h2>
-                            <div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
+                        <?php
+                            $array = [
+                                ["1","17","Non","Aston Martin","DBX","aston_martin","dbx","Rien","Rien","Rien"],
+                                ["2","18","Oui","Audi","RS6","audi","RS6","RSQ8","audi","RSQ8"],
+                                ["3","19","Oui","Bentley","BENTAYGA","bentley","bentayga","FLYING SPUR","bentley","flying_spur"],
+                                ["4","20","Oui","BMW","SERIE 7","bmw","serie7","SERIE 7 NEW","bmw","serie7new"],
+                                ["5","21","Non","Bugatti","CHIRON","bugatti","chiron","Rien","Rien","Rien"],
+                                ["6","22","Non","Cadillac","ESCALADE","cadillac","escalade","Rien","Rien","Rien"],
+                                ["7","23","Oui","Ferrari","812 GTS","ferrari","812_gts","SF90 SPIDER","ferrari","sf90_spider"],
+                                ["8","24","Non","Ford","GT","ford","gt","Rien","Rien","Rien"],
+                                ["9","25","Oui","Lamborghini","URUS","lamborghini","urus","AVENTADOR SVJ ROADSTER","lamborghini","aventador_svj_roadster"],
+                                ["10","26","Non","Land Rover","RANGE ROVER SV","land_rover","sv","Rien","Rien","Rien"],
+                                ["11","27","Non","Lotus","EVORA GTE","lotus","evora_gte","Rien","Rien","Rien"],
+                                ["12","28","Non","Maserati","MC20","maserati","mc20","Rien","Rien","Rien"],
+                                ["13","29","Non","Mclaren","720S","mclaren","720S","Rien","Rien","Rien"],
+                                ["14","30","Oui","Mercedes","AMG GT63 S E PERFORMANCE","mercedes","amg_gt63_s_e_performance","SL63","mercedes","sl63",],
+                                ["15","31","Non","Porsche","911 (992)","porsche","911_(992)","Rien","Rien","Rien"],
+                                ["16","32","Oui","Rolls-Royce","CULLINAN","rolls_royce","cullinan","GHOST","rolls_royce","ghost"],
+                            ];
+
+                            foreach ($array as list($numero1, $numero2, $condition, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
+                                echo('
+                                    <!--     NOUVEL ACCORDEON     -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero1.'" aria-expanded="true" aria-controls="collapse'.$numero1.'">
+                                            '.$marque.'
+                                        </button>
+                                        </h2>
+                                        <div id="collapse'.$numero1.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body d-flex justify-content-around">
+                                                <div class="card" style="width: 15rem;">
+                                                    <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">'.$modele.'</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
+                                                        <a href="#" class="btn btn-primary">Choisir</a>
+                                                    </div>
+                                                </div>'
+                                );
+                                if ($condition == "Oui") { echo('
+                                                <div class="card" style="width: 15rem;">
+                                                    <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele2.'">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">'.$modele2.'</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
+                                                        <a href="#" class="btn btn-primary">Choisir</a>
+                                                    </div>
+                                                </div>
+                                    ');
+                                }
+                                echo('
+                                            </div>
+                                        </div>
+                                    </div>
+                                ');
+                            }
+                        ?>
+                        
                     </div>
 
                 </div>
@@ -584,91 +83,47 @@
                     
                     <div class="compar_droite_titre d-flex justify-content-center pb-5">Choisir la deuxième voiture</div>
 
-                    <div class="accordion" id="accordionExample2">
-                        <!--     PREMIER ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
-                                Accordeon Item #1
-                            </button>
-                            </h2>
-                            <div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                            <div class="accordion-body d-flex justify-content-around">
-                                <div class="card" style="width: 15rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 15rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <!--     DEUXIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
-                                Accordeon Item #2
-                            </button>
-                            </h2>
-                            <div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="accordion pb-5" id="accordionExample2">
+                            <?php
+                                foreach ($array as list($numero1, $numero2, $condition, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
+                                    echo('
+                                        <!--     NOUVEL ACCORDEON     -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero2.'" aria-expanded="true" aria-controls="collapse'.$numero2.'">
+                                                '.$marque.'
+                                            </button>
+                                            </h2>
+                                            <div id="collapse'.$numero2.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body d-flex justify-content-around">
+                                                    <div class="card" style="width: 15rem;">
+                                                        <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">'.$modele.'</h5>
+                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
+                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                        </div>
+                                                    </div>
+                                    ');
+                                    if ($condition == "Oui") { echo('
+                                                    <div class="card" style="width: 15rem;">
+                                                        <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">'.$modele2.'</h5>
+                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
+                                                            <a href="#" class="btn btn-primary">Choisir</a>
+                                                        </div>
+                                                    </div>
+                                        ');
+                                    }
+                                    echo('
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--     TROISIEME ACCORDEON     -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
-                                Accordeon Item #3
-                            </button>
-                            </h2>
-                            <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                <div class="accordion-body d-flex justify-content-around">
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="width: 15rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                    ');
+                                }
+                            ?>
+                        
                     </div>
 
                 </div>  
