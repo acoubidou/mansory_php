@@ -27,5 +27,8 @@
 	<?php if($strPage == "accueil"){?>
         <script src="assets/js/imgRandom.js"></script>
     <?php }?>
+	<?php if($strPage == "comparateur"){?>
+        <script src="/mansory_php/assets/js/pickCars.js"></script>
+    <?php }?>
 </body>
 </html>
