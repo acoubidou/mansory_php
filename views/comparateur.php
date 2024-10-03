@@ -53,7 +53,9 @@
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <a href="#" class="btn btn-primary">Choisir</a>
+                                                        <form>
+                                                        <button type="submit" class="btn btn-primary" name="bouton">Choisir</button>
+                                                        </form>
                                                     </div>
                                                 </div>'
                                 );
@@ -75,10 +77,10 @@
                                 ');
                             }
                         ?>
-                        
                     </div>
-
                 </div>
+                
+                
                 <div class="compar_droite col-12 col-lg-5 d-flex flex-column mt-5 p-2">
                     
                     <div class="compar_droite_titre d-flex justify-content-center pb-5">Choisir la deuxième voiture</div>
@@ -101,7 +103,7 @@
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                            <button class="btn btn-primary">Choisir</button>
                                                         </div>
                                                     </div>
                                     ');
@@ -127,6 +129,13 @@
                     </div>
 
                 </div>  
+
+                <?php
+                if(isset($_POST['bouton'])){
+                echo('<p>Salut</p>');
+                }
+                ?>
+
             </div>
         </div>
     </main>
