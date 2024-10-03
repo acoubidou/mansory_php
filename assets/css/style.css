@@ -110,10 +110,7 @@ footer {
 }
                                         /*     ---     PAGE COMPARATEUR     ---     */
 .compar_gauche {
-
-}
-.compar_gauche_titre {
-
+    border: 1px solid black;
 }
 .compar_droite {
 
