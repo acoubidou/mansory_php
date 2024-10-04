@@ -110,10 +110,12 @@ footer {
 }
                                         /*     ---     PAGE COMPARATEUR     ---     */
 .compar_gauche {
-    border: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .compar_droite {
-
+    border: 1px solid black;
 }
                                         /*     ---     PAGE MARQUE     ---     */
 .logoMarques {

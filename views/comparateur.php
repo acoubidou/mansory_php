@@ -48,7 +48,7 @@
                                         </h2>
                                         <div id="collapse'.$numero1.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                             <div class="accordion-body d-flex justify-content-center">
-                                                <div class="card me-2" style="width: 15rem;">
+                                                <div class="card me-2" id="card'.$numero1.'" style="width: 15rem;">
                                                     <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele.'</h5>
@@ -132,16 +132,22 @@
 
             </div>
 
-            <div class="row justify-content-around">
+            <div class="row">
                 <div class="compar_gauche col-6 d-flex flex-column">
                     <div class="d-flex justify-content-center">
-                        <p>ici</p>
+                        <img id="lienImg1Compar" src="">
+                    </div>
+                    <div class="d-flex justify-content-center pt-3">
+                        <p id="tabGaucheComparTitre">Aucune Voiture</p>
+                    </div>
+                    <div >
+                        <p></p>
                     </div>
 
                 </div>
-                <div class="col-6 d-flex flex-column">
-                    <div class="compar_droite d-flex justify-content-center">
-                        <p>ici</p>
+                <div class="compar_droite col-6 d-flex flex-column">
+                    <div class=" d-flex justify-content-center pt-3">
+                        <p>Aucune voiture</p>
                     </div>
                 </div>
             </div>
