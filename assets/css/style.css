@@ -109,14 +109,46 @@ footer {
     margin-bottom: 500px;
 }
                                         /*     ---     PAGE COMPARATEUR     ---     */
-.compar_gauche {
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.comparGaucheEntier {
+    margin-bottom: 30px;
 }
-.compar_droite {
+.comparGauchePremier {
     border: 1px solid black;
 }
+.comparGauche {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+.comparTitres {
+    color: gray;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+.comparDroiteEntier {
+    margin-bottom: 30px;
+}
+.comparDroitePremier {
+    border: 1px solid black;
+}
+.comparDroite {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
                                         /*     ---     PAGE MARQUE     ---     */
 .logoMarques {
     transition: all 1s ease;

@@ -123,35 +123,88 @@
                                     ');
                                 }
                             ?>
-                        
                     </div>
-
                 </div>  
-
-
-
             </div>
 
             <div class="row">
-                <div class="compar_gauche col-6 d-flex flex-column">
-                    <div class="d-flex justify-content-center">
-                        <img id="lienImg1Compar" src="">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauchePremier d-flex justify-content-center">
+                        <img id="lienImg1ComparGauche" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
                     </div>
-                    <div class="d-flex justify-content-center pt-3">
-                        <p id="tabGaucheComparTitre">Aucune Voiture</p>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Nom de la voiture</p>
+                        <p id="comparGaucheNom" class="d-flex justify-content-center">-</p>
                     </div>
-                    <div >
-                        <p></p>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Année de sortie</p>
+                        <p id="comparGaucheAnnee" class="d-flex justify-content-center">-</p>
                     </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Moteur</p>
+                        <p id="comparGaucheMoteur" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Puissance</p>
+                        <p id="comparGauchePuissance" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Couple</p>
+                        <p id="comparGaucheCouple" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Accélération</p>
+                        <p id="comparGaucheAccélération" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Vitesse</p>
+                        <p id="comparGaucheVitesse" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparGauche pt-3">
+                        <p class="comparTitres">Prix</p>
+                        <p id="comparGauchePrix" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                
+                <div class="comparDroiteEntier col-6 d-flex flex-column">
+                    <div class="comparDroitePremier d-flex justify-content-center">
+                        <img id="lienImg1ComparDroite" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Nom de la voiture</p>
+                        <p id="comparDroiteNom" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Année de sortie</p>
+                        <p id="comparDroiteAnnee" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Moteur</p>
+                        <p id="comparDroiteMoteur" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Puissance</p>
+                        <p id="comparDroitePuissance" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Couple</p>
+                        <p id="comparDroiteCouple" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Accélération</p>
+                        <p id="comparDroiteAccélération" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Vitesse</p>
+                        <p id="comparDroiteVitesse" class="d-flex justify-content-center">-</p>
+                    </div>
+                    <div class="comparDroite pt-3">
+                        <p class="comparTitres">Prix</p>
+                        <p id="comparDroitePrix" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
 
-                </div>
-                <div class="compar_droite col-6 d-flex flex-column">
-                    <div class=" d-flex justify-content-center pt-3">
-                        <p>Aucune voiture</p>
-                    </div>
-                </div>
             </div>
-
         </div>
     </main>
 <?php 
