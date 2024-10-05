@@ -40,7 +40,7 @@
                             foreach ($array as list($numero1, $sousnumero1, $numero2, $sousnumero2, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
                                 echo('
                                     <!--     NOUVEL ACCORDEON     -->
-                                    <div class="accordion-item">
+                                    <div class="accordion-item" id="accordeon'.$numero1.'">
                                         <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero1.'" aria-expanded="true" aria-controls="collapse'.$numero1.'">
                                             '.$marque.'
@@ -58,12 +58,12 @@
                                                 </div>'
                                 );
                                 if ($modele2 != "Rien") { echo('
-                                                <div class="card" style="width: 15rem;">
+                                                <div class="card" id="card'.$sousnumero1.'" style="width: 15rem;">
                                                     <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele2.'">
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele2.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <a href="#" class="btn btn-primary" id="bouton'.$sousnumero1.'">Choisir</a>
+                                                        <button class="btn btn-primary" id="bouton'.$sousnumero1.'">Choisir</button>
                                                     </div>
                                                 </div>
                                     ');
@@ -88,7 +88,7 @@
                                 foreach ($array as list($numero1, $sousnumero1, $numero2, $sousnumero2, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
                                     echo('
                                         <!--     NOUVEL ACCORDEON     -->
-                                        <div class="accordion-item">
+                                        <div class="accordion-item" id="accordeon'.$numero2.'">
                                             <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero2.'" aria-expanded="true" aria-controls="collapse'.$numero2.'">
                                                 '.$marque.'
@@ -96,22 +96,22 @@
                                             </h2>
                                             <div id="collapse'.$numero2.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
                                                 <div class="accordion-body d-flex justify-content-around">
-                                                    <div class="card" style="width: 15rem;">
+                                                    <div class="card" id="card'.$numero2.'" style="width: 15rem;">
                                                         <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <button class="btn btn-primary id="bouton'.$numero2.'">Choisir</button>
+                                                            <button class="btn btn-primary" id="bouton'.$numero2.'">Choisir</button>
                                                         </div>
                                                     </div>
                                     ');
                                     if ($modele2 != "Rien") { echo('
-                                                    <div class="card" style="width: 15rem;">
+                                                    <div class="card" id="card'.$sousnumero2.'" style="width: 15rem;">
                                                         <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele2.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <a href="#" class="btn btn-primary id="bouton'.$sousnumero2.'">Choisir</a>
+                                                            <button class="btn btn-primary id="bouton'.$sousnumero2.'">Choisir</button>
                                                         </div>
                                                     </div>
                                         ');
@@ -154,7 +154,7 @@
                     </div>
                     <div class="comparGauche pt-3">
                         <p class="comparTitres">Accélération</p>
-                        <p id="comparGaucheAccélération" class="d-flex justify-content-center">-</p>
+                        <p id="comparGaucheAcceleration" class="d-flex justify-content-center">-</p>
                     </div>
                     <div class="comparGauche pt-3">
                         <p class="comparTitres">Vitesse</p>
@@ -192,7 +192,7 @@
                     </div>
                     <div class="comparDroite pt-3">
                         <p class="comparTitres">Accélération</p>
-                        <p id="comparDroiteAccélération" class="d-flex justify-content-center">-</p>
+                        <p id="comparDroiteAcceleration" class="d-flex justify-content-center">-</p>
                     </div>
                     <div class="comparDroite pt-3">
                         <p class="comparTitres">Vitesse</p>
