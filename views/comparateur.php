@@ -19,22 +19,22 @@
 
                         <?php
                             $array = [
-                                ["1","101","17","17.1","Aston Martin","DBX","aston_martin","dbx","Rien","Rien","Rien"],
-                                ["2","102","18","18.1","Audi","RS6","audi","RS6","RSQ8","audi","rsq8"],
-                                ["3","103","19","19.1","Bentley","BENTAYGA","bentley","bentayga","FLYING SPUR","bentley","flying_spur"],
-                                ["4","104","20","20.1","BMW","SERIE 7","bmw","serie7","SERIE 7 NEW","bmw","serie7new"],
-                                ["5","105","21","21.1","Bugatti","CHIRON","bugatti","chiron","Rien","Rien","Rien"],
-                                ["6","106","22","22.1","Cadillac","ESCALADE","cadillac","escalade","Rien","Rien","Rien"],
-                                ["7","107","23","23.1","Ferrari","812 GTS","ferrari","812_gts","SF90 SPIDER","ferrari","sf90_spider"],
-                                ["8","108","24","24.1","Ford","GT","ford","gt","Rien","Rien","Rien"],
-                                ["9","109","25","25.1","Lamborghini","URUS","lamborghini","urus","AVENTADOR SVJ ROADSTER","lamborghini","aventador_svj_roadster"],
-                                ["10","110","26","26.1","Land Rover","RANGE ROVER SV","land_rover","sv","Rien","Rien","Rien"],
-                                ["11","111","27","27.1","Lotus","EVORA GTE","lotus","evora_gte","Rien","Rien","Rien"],
-                                ["12","112","28","28.1","Maserati","MC20","maserati","mc20","Rien","Rien","Rien"],
-                                ["13","113","29","29.1","Mclaren","720S","mclaren","720S","Rien","Rien","Rien"],
-                                ["14","114","30","30.1","Mercedes","AMG GT63 S E PERFORMANCE","mercedes","amg_gt63_s_e_performance","SL63","mercedes","sl63",],
-                                ["15","115","31","31.1","Porsche","911 (992)","porsche","911_(992)","Rien","Rien","Rien"],
-                                ["16","116","32","32.1","Rolls-Royce","CULLINAN","rolls_royce","cullinan","GHOST","rolls_royce","ghost"],
+                                ["1","101","17","117","Aston Martin","DBX","aston_martin","dbx","Rien","Rien","Rien"],
+                                ["2","102","18","118","Audi","RS6","audi","RS6","RSQ8","audi","rsq8"],
+                                ["3","103","19","119","Bentley","BENTAYGA","bentley","bentayga","FLYING SPUR","bentley","flying_spur"],
+                                ["4","104","20","120","BMW","SERIE 7","bmw","serie7","SERIE 7 NEW","bmw","serie7new"],
+                                ["5","105","21","121","Bugatti","CHIRON","bugatti","chiron","Rien","Rien","Rien"],
+                                ["6","106","22","122","Cadillac","ESCALADE","cadillac","escalade","Rien","Rien","Rien"],
+                                ["7","107","23","123","Ferrari","812 GTS","ferrari","812_gts","SF90 SPIDER","ferrari","sf90_spider"],
+                                ["8","108","24","124","Ford","GT","ford","gt","Rien","Rien","Rien"],
+                                ["9","109","25","125","Lamborghini","URUS","lamborghini","urus","AVENTADOR SVJ ROADSTER","lamborghini","aventador_svj_roadster"],
+                                ["10","110","26","126","Land Rover","RANGE ROVER SV","land_rover","sv","Rien","Rien","Rien"],
+                                ["11","111","27","127","Lotus","EVORA GTE","lotus","evora_gte","Rien","Rien","Rien"],
+                                ["12","112","28","128","Maserati","MC20","maserati","mc20","Rien","Rien","Rien"],
+                                ["13","113","29","129","Mclaren","720S","mclaren","720S","Rien","Rien","Rien"],
+                                ["14","114","30","130","Mercedes","AMG GT63 S E PERFORMANCE","mercedes","amg_gt63_s_e_performance","SL63","mercedes","sl63",],
+                                ["15","115","31","131","Porsche","911 (992)","porsche","911_(992)","Rien","Rien","Rien"],
+                                ["16","116","32","132","Rolls-Royce","CULLINAN","rolls_royce","cullinan","GHOST","rolls_royce","ghost"],
                             ];
 
                             foreach ($array as list($numero1, $sousnumero1, $numero2, $sousnumero2, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
@@ -53,7 +53,7 @@
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <button class="btn btn-primary" id="bouton'.$numero1.'">Choisir</button>
+                                                        <button class="btn btn-primary" id="bouton'.$numero1.'" class="boutonAll">Choisir</button>
                                                     </div>
                                                 </div>'
                                 );
@@ -63,7 +63,7 @@
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele2.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <button class="btn btn-primary" id="bouton'.$sousnumero1.'">Choisir</button>
+                                                        <button class="btn btn-primary" id="bouton'.$sousnumero1.'" class="boutonAll">Choisir</button>
                                                     </div>
                                                 </div>
                                     ');
@@ -95,13 +95,13 @@
                                             </button>
                                             </h2>
                                             <div id="collapse'.$numero2.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                                <div class="accordion-body d-flex justify-content-around">
-                                                    <div class="card" id="card'.$numero2.'" style="width: 15rem;">
+                                                <div class="accordion-body d-flex justify-content-center">
+                                                    <div class="card me-2" id="card'.$numero2.'" style="width: 15rem;">
                                                         <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <button class="btn btn-primary" id="bouton'.$numero2.'">Choisir</button>
+                                                            <button class="btn btn-primary" id="bouton'.$numero2.'" class="boutonAll">Choisir</button>
                                                         </div>
                                                     </div>
                                     ');
@@ -111,7 +111,7 @@
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele2.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <button class="btn btn-primary id="bouton'.$sousnumero2.'">Choisir</button>
+                                                            <button class="btn btn-primary" id="bouton'.$sousnumero2.'" class="boutonAll">Choisir</button>
                                                         </div>
                                                     </div>
                                         ');
