@@ -82,9 +82,9 @@ $(document).ready(function() {
         $('#comparGaucheNom').text("AUDI RSQ8");
         $('#comparGaucheAnnee').text("2020");
         $('#comparGaucheMoteur').text("V8");
-        $('#comparGauchePuissance').text("730ch");
+        $('#comparGauchePuissance').text("780ch");
         $('#comparGaucheCouple').text("1000nm");
-        $('#comparGaucheAcceleration').text("3.2s");
+        $('#comparGaucheAcceleration').text("3.3s");
         $('#comparGaucheVitesse').text("320km/h");
         $('#comparGauchePrix').text("300 000€"); 
     });
@@ -96,9 +96,9 @@ $(document).ready(function() {
         $('#comparDroiteNom').text("AUDI RSQ8");
         $('#comparDroiteAnnee').text("2020");
         $('#comparDroiteMoteur').text("V8");
-        $('#comparDroitePuissance').text("730ch");
+        $('#comparDroitePuissance').text("780ch");
         $('#comparDroiteCouple').text("1000nm");
-        $('#comparDroiteAcceleration').text("3.2s");
+        $('#comparDroiteAcceleration').text("3.3s");
         $('#comparDroiteVitesse').text("320km/h");
         $('#comparDroitePrix').text("300 000€"); 
     });
