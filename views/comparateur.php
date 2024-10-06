@@ -131,12 +131,12 @@
             <div class="row">
                 <div class="comparGaucheEntier col-6 d-flex flex-column">
                     <div class="comparGauche d-flex justify-content-center">
-                        <img id="lienImg1ComparGauche" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
+                        <img id="lienImg1ComparGauche" class="p-0" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
                     </div>
                 </div>
                 <div class="comparGaucheEntier col-6 d-flex flex-column">
                     <div class="comparDroite d-flex justify-content-center">
-                        <img id="lienImg1ComparDroite" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
+                        <img id="lienImg1ComparDroite" class="p-0" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
                     </div>
                 </div>
             </div>

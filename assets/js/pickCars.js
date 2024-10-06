@@ -222,14 +222,78 @@ $(document).ready(function() {
         $('#comparDroiteNom').text("BMW SERIE 7 NEW");
         $('#comparDroiteAnnee').text("2023");
         $('#comparDroiteMoteur').text("V8");
-        $('#comparDroitePuissance').text("1543ch");
+        $('#comparDroitePuissance').text("543ch");
         $('#comparDroiteCouple').text("750nm");
         $('#comparDroiteAcceleration').text("4.5s");
         $('#comparDroiteVitesse').text("250km/h");
         $('#comparDroitePrix').text("300 000€"); 
     });
-
-
+    //BUGATTI
+    $("#bouton5").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card5").css("border", "3px solid green");
+        $("#accordeon5").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/bugatti/chiron/chiron_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("BUGATTI CHIRON (CENTURIA)");
+        $('#comparGaucheAnnee').text("2019");
+        $('#comparGaucheMoteur').text("V16");
+        $('#comparGauchePuissance').text("1500ch");
+        $('#comparGaucheCouple').text("1600nm");
+        $('#comparGaucheAcceleration').text("2.4s");
+        $('#comparGaucheVitesse').text("420km/h");
+        $('#comparGauchePrix').text("4 800 000€"); 
+    });
+    $("#bouton21").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card21").css("border", "3px solid green");
+        $("#accordeon21").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/bugatti/chiron/chiron_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("BUGATTI CHIRON (CENTURIA)");
+        $('#comparDroiteAnnee').text("2019");
+        $('#comparDroiteMoteur').text("V16");
+        $('#comparDroitePuissance').text("1500ch");
+        $('#comparDroiteCouple').text("1600nm");
+        $('#comparDroiteAcceleration').text("2.4s");
+        $('#comparDroiteVitesse').text("420km/h");
+        $('#comparDroitePrix').text("4 800 000€"); 
+    });
+    //CADILLAC
+    $("#bouton6").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card6").css("border", "3px solid green");
+        $("#accordeon6").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/cadillac/escalade/escalade_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("CADILLAC ESCALADE");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("461ch");
+        $('#comparGaucheCouple').text("650nm");
+        $('#comparGaucheAcceleration').text("3.7s");
+        $('#comparGaucheVitesse').text("255km/h");
+        $('#comparGauchePrix').text("150 000€"); 
+    });
+    $("#bouton22").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card22").css("border", "3px solid green");
+        $("#accordeon22").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/cadillac/escalade/escalade_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("CADILLAC ESCALADE");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("461ch");
+        $('#comparDroiteCouple').text("650nm");
+        $('#comparDroiteAcceleration').text("3.7s");
+        $('#comparDroiteVitesse').text("255km/h");
+        $('#comparDroitePrix').text("150 000€"); 
+    });
 
     $(".boutonAll").on("click", function(){
         var AnneeGauche = $('#comparGaucheAnnee').text();
