@@ -112,14 +112,10 @@ footer {
 .comparGaucheEntier {
     margin-bottom: 30px;
 }
-.comparGauchePremier {
+.comparGauche {
     border: 1px solid black;
 }
-.comparGauche {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
+
 
 
 
@@ -140,13 +136,8 @@ footer {
 .comparDroiteEntier {
     margin-bottom: 30px;
 }
-.comparDroitePremier {
-    border: 1px solid black;
-}
 .comparDroite {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border: 1px solid black;
 }
 
                                         /*     ---     PAGE MARQUE     ---     */

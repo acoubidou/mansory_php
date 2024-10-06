@@ -40,7 +40,7 @@
                             foreach ($array as list($numero1, $sousnumero1, $numero2, $sousnumero2, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
                                 echo('
                                     <!--     NOUVEL ACCORDEON     -->
-                                    <div class="accordion-item" id="accordeon'.$numero1.'">
+                                    <div class="accordion-item accordeonAllGauche" id="accordeon'.$numero1.'">
                                         <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero1.'" aria-expanded="true" aria-controls="collapse'.$numero1.'">
                                             '.$marque.'
@@ -48,7 +48,7 @@
                                         </h2>
                                         <div id="collapse'.$numero1.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                             <div class="accordion-body d-flex justify-content-center">
-                                                <div class="card me-2" id="card'.$numero1.'" style="width: 15rem;">
+                                                <div class="card me-2 cardAllGauche" id="card'.$numero1.'" style="width: 15rem;">
                                                     <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele.'</h5>
@@ -58,7 +58,7 @@
                                                 </div>'
                                 );
                                 if ($modele2 != "Rien") { echo('
-                                                <div class="card" id="card'.$sousnumero1.'" style="width: 15rem;">
+                                                <div class="card cardAllGauche" id="card'.$sousnumero1.'" style="width: 15rem;">
                                                     <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele2.'">
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele2.'</h5>
@@ -88,7 +88,7 @@
                                 foreach ($array as list($numero1, $sousnumero1, $numero2, $sousnumero2, $marque, $modele, $marque_lien, $modele_lien, $modele2, $marque_lien2, $modele_lien2)) {
                                     echo('
                                         <!--     NOUVEL ACCORDEON     -->
-                                        <div class="accordion-item" id="accordeon'.$numero2.'">
+                                        <div class="accordion-item accordeonAllDroite" id="accordeon'.$numero2.'">
                                             <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$numero2.'" aria-expanded="true" aria-controls="collapse'.$numero2.'">
                                                 '.$marque.'
@@ -96,7 +96,7 @@
                                             </h2>
                                             <div id="collapse'.$numero2.'" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
                                                 <div class="accordion-body d-flex justify-content-center">
-                                                    <div class="card me-2" id="card'.$numero2.'" style="width: 15rem;">
+                                                    <div class="card me-2 cardAllDroite" id="card'.$numero2.'" style="width: 15rem;">
                                                         <img src="/mansory_php/assets/images/voitures/'.$marque_lien.'/'.$modele_lien.'/'.$modele_lien.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele.'</h5>
@@ -106,7 +106,7 @@
                                                     </div>
                                     ');
                                     if ($modele2 != "Rien") { echo('
-                                                    <div class="card" id="card'.$sousnumero2.'" style="width: 15rem;">
+                                                    <div class="card cardAllDroite" id="card'.$sousnumero2.'" style="width: 15rem;">
                                                         <img src="/mansory_php/assets/images/voitures/'.$marque_lien2.'/'.$modele_lien2.'/'.$modele_lien2.'_avant.jpg" class="card-img-top" alt="'.$modele.'">
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele2.'</h5>
@@ -127,84 +127,148 @@
                 </div>  
             </div>
 
+            <!-- IMAGE DE LA VOITURE -->                    
             <div class="row">
                 <div class="comparGaucheEntier col-6 d-flex flex-column">
-                    <div class="comparGauchePremier d-flex justify-content-center">
+                    <div class="comparGauche d-flex justify-content-center">
                         <img id="lienImg1ComparGauche" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
                     </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparDroite d-flex justify-content-center">
+                        <img id="lienImg1ComparDroite" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- NOM DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
                     <div class="comparGauche pt-3">
                         <p class="comparTitres">Nom de la voiture</p>
                         <p id="comparGaucheNom" class="d-flex justify-content-center">-</p>
                     </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Année de sortie</p>
-                        <p id="comparGaucheAnnee" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Moteur</p>
-                        <p id="comparGaucheMoteur" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Puissance</p>
-                        <p id="comparGauchePuissance" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Couple</p>
-                        <p id="comparGaucheCouple" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Accélération</p>
-                        <p id="comparGaucheAcceleration" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Vitesse</p>
-                        <p id="comparGaucheVitesse" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparGauche pt-3">
-                        <p class="comparTitres">Prix</p>
-                        <p id="comparGauchePrix" class="d-flex justify-content-center">-</p>
-                    </div>
                 </div>
-                
-                <div class="comparDroiteEntier col-6 d-flex flex-column">
-                    <div class="comparDroitePremier d-flex justify-content-center">
-                        <img id="lienImg1ComparDroite" class="p-3" src="/mansory_php/assets/images/general/mansory_logo_noir.png">
-                    </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
                     <div class="comparDroite pt-3">
                         <p class="comparTitres">Nom de la voiture</p>
                         <p id="comparDroiteNom" class="d-flex justify-content-center">-</p>
                     </div>
-                    <div class="comparDroite pt-3">
+                </div>
+            </div>
+            
+            <!-- ANNEE DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGaucheAnneeCase">
                         <p class="comparTitres">Année de sortie</p>
-                        <p id="comparDroiteAnnee" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Moteur</p>
-                        <p id="comparDroiteMoteur" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Puissance</p>
-                        <p id="comparDroitePuissance" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Couple</p>
-                        <p id="comparDroiteCouple" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Accélération</p>
-                        <p id="comparDroiteAcceleration" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Vitesse</p>
-                        <p id="comparDroiteVitesse" class="d-flex justify-content-center">-</p>
-                    </div>
-                    <div class="comparDroite pt-3">
-                        <p class="comparTitres">Prix</p>
-                        <p id="comparDroitePrix" class="d-flex justify-content-center">-</p>
+                        <p id="comparGaucheAnnee" class="d-flex justify-content-center">-</p>
                     </div>
                 </div>
-
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroiteAnneeCase">
+                        <p class="comparTitres">Année de sortie</p>
+                        <p id="comparDroiteAnnee" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
             </div>
+
+            <!-- MOTEUR DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGaucheMoteurCase">
+                        <p class="comparTitres">Moteur</p>
+                        <p id="comparGaucheMoteur" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroiteMoteurCase">
+                        <p class="comparTitres">Moteur</p>
+                        <p id="comparDroiteMoteur" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- PUISSANCE DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGauchePuissanceCase">
+                        <p class="comparTitres">Puissance</p>
+                        <p id="comparGauchePuissance" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroitePuissanceCase">
+                        <p class="comparTitres">Puissance</p>
+                        <p id="comparDroitePuissance" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- COUPLE DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGaucheCoupleCase">
+                        <p class="comparTitres">Couple</p>
+                        <p id="comparGaucheCouple" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroiteCoupleCase">
+                        <p class="comparTitres">Couple</p>
+                        <p id="comparDroiteCouple" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- 0-100KM/H DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGaucheAccelerationCase">
+                        <p class="comparTitres">0-100km/h</p>
+                        <p id="comparGaucheAcceleration" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroiteAccelerationCase">
+                        <p class="comparTitres">0-100km/h</p>
+                        <p id="comparDroiteAcceleration" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- VITESSE DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGaucheVitesseCase">
+                        <p class="comparTitres">Vitesse</p>
+                        <p id="comparGaucheVitesse" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroiteVitesseCase">
+                        <p class="comparTitres">Vitesse</p>
+                        <p id="comparDroiteVitesse" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- PRIX DE LA VOITURE --> 
+            <div class="row">
+                <div class="comparGaucheEntier col-6 d-flex flex-column">
+                    <div class="comparGauche pt-3" id="comparGauchePrixCase">
+                        <p class="comparTitres">Prix</p>
+                        <p id="comparGauchePrix" class="d-flex justify-content-center">-</p>
+                    </div>
+                </div>
+                <div class="comparGaucheEntier col-6 d-flex flex-column">   
+                    <div class="comparDroite pt-3" id="comparDroitePrixCase">
+                        <p class="comparTitres">Prix</p>
+                        <p id="comparDroitePrix" class="d-flex justify-content-center">-</p>
+                    </div>  
+                </div>
+            </div>
+
         </div>
     </main>
 <?php 
