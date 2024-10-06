@@ -53,7 +53,7 @@
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <button class="btn btn-primary" id="bouton'.$numero1.'" class="boutonAll">Choisir</button>
+                                                        <button class="btn btn-primary boutonAll" id="bouton'.$numero1.'">Choisir</button>
                                                     </div>
                                                 </div>'
                                 );
@@ -63,7 +63,7 @@
                                                     <div class="card-body">
                                                         <h5 class="card-title">'.$modele2.'</h5>
                                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                        <button class="btn btn-primary" id="bouton'.$sousnumero1.'" class="boutonAll">Choisir</button>
+                                                        <button class="btn btn-primary boutonAll" id="bouton'.$sousnumero1.'">Choisir</button>
                                                     </div>
                                                 </div>
                                     ');
@@ -101,7 +101,7 @@
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <button class="btn btn-primary" id="bouton'.$numero2.'" class="boutonAll">Choisir</button>
+                                                            <button class="btn btn-primary boutonAll" id="bouton'.$numero2.'">Choisir</button>
                                                         </div>
                                                     </div>
                                     ');
@@ -111,7 +111,7 @@
                                                         <div class="card-body">
                                                             <h5 class="card-title">'.$modele2.'</h5>
                                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
-                                                            <button class="btn btn-primary" id="bouton'.$sousnumero2.'" class="boutonAll">Choisir</button>
+                                                            <button class="btn btn-primary boutonAll" id="bouton'.$sousnumero2.'">Choisir</button>
                                                         </div>
                                                     </div>
                                         ');
