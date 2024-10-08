@@ -567,7 +567,7 @@ $(document).ready(function() {
         $('#comparGaucheNom').text("MCLAREN 720S");
         $('#comparGaucheAnnee').text("2018");
         $('#comparGaucheMoteur').text("V8");
-        $('#comparGauchePuissance').text("75ch");
+        $('#comparGauchePuissance').text("755ch");
         $('#comparGaucheCouple').text("770nm");
         $('#comparGaucheAcceleration').text("2.8s");
         $('#comparGaucheVitesse').text("345km/h");
@@ -583,7 +583,7 @@ $(document).ready(function() {
         $('#comparDroiteNom').text("MCLAREN 720S");
         $('#comparDroiteAnnee').text("2018");
         $('#comparDroiteMoteur').text("V8");
-        $('#comparDroitePuissance').text("75ch");
+        $('#comparDroitePuissance').text("755ch");
         $('#comparDroiteCouple').text("770nm");
         $('#comparDroiteAcceleration').text("2.8s");
         $('#comparDroiteVitesse').text("345km/h");
@@ -627,32 +627,130 @@ $(document).ready(function() {
         $(".accordeonAllGauche").css("border", "");
         $("#card114").css("border", "3px solid green");
         $("#accordeon14").css("border", "3px solid green");
-        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/mercedes/sl63/sl63_avant.jpg");
         $('#lienImg1ComparGauche').attr("class","p-0");
-        $('#comparGaucheNom').text("LAMBORGHINI URUS (VENATUS EVO)");
-        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheNom').text("MERCEDES SL (R232) 63 AMG");
+        $('#comparGaucheAnnee').text("2023");
         $('#comparGaucheMoteur').text("V8");
-        $('#comparGauchePuissance').text("912ch");
-        $('#comparGaucheCouple').text("1100nm");
-        $('#comparGaucheAcceleration').text("2.9s");
-        $('#comparGaucheVitesse').text("323km/h");
-        $('#comparGauchePrix').text("780 000€");1
+        $('#comparGauchePuissance').text("850ch");
+        $('#comparGaucheCouple').text("1150nm");
+        $('#comparGaucheAcceleration').text("3.2s");
+        $('#comparGaucheVitesse').text("332km/h");
+        $('#comparGauchePrix').text("375 000€");1
     });
     $("#bouton130").on("click", function() {
         $(".cardAllDroite").css("border", "");
         $(".accordeonAllDroite").css("border", "");
         $("#card130").css("border", "3px solid green");
         $("#accordeon30").css("border", "3px solid green");
-        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/mercedes/sl63/sl63_avant.jpg");
         $('#lienImg1ComparDroite').attr("class","p-0");
-        $('#comparDroiteNom').text("LAMBORGHINI URUS (VENATUS EVO)");
-        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteNom').text("MERCEDES SL (R232) 63 AMG");
+        $('#comparDroiteAnnee').text("2023");
         $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("850ch");
+        $('#comparDroiteCouple').text("1150nm");
+        $('#comparDroiteAcceleration').text("3.2s");
+        $('#comparDroiteVitesse').text("332km/h");
+        $('#comparDroitePrix').text("375 000€"); 
+    });
+    //PORSCHE
+    $("#bouton15").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card15").css("border", "3px solid green");
+        $("#accordeon15").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/porsche/911_(992)/911_(992)_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("PORSCHE 911 (992) (P9LM EVO 900)");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V6");
+        $('#comparGauchePuissance').text("912ch");
+        $('#comparGaucheCouple').text("1050nm");
+        $('#comparGaucheAcceleration').text("2.5s");
+        $('#comparGaucheVitesse').text("340km/h");
+        $('#comparGauchePrix').text("700 000€"); 
+    });
+    $("#bouton31").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card31").css("border", "3px solid green");
+        $("#accordeon31").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/porsche/911_(992)/911_(992)_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("PORSCHE 911 (992) (P9LM EVO 900)");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V6");
         $('#comparDroitePuissance').text("912ch");
-        $('#comparDroiteCouple').text("1100nm");
-        $('#comparDroiteAcceleration').text("2.9s");
-        $('#comparDroiteVitesse').text("323km/h");
-        $('#comparDroitePrix').text("780 000€"); 
+        $('#comparDroiteCouple').text("1050nm");
+        $('#comparDroiteAcceleration').text("2.5s");
+        $('#comparDroiteVitesse').text("340km/h");
+        $('#comparDroitePrix').text("700 000€"); 
+    });
+    //ROLLS ROYCE
+    $("#bouton16").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card16").css("border", "3px solid green");
+        $("#accordeon16").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/rolls_royce/cullinan/cullinan_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("ROLLS ROYCE CULLINAN COASTLINE");
+        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheMoteur').text("V12");
+        $('#comparGauchePuissance').text("618ch");
+        $('#comparGaucheCouple').text("912nm");
+        $('#comparGaucheAcceleration').text("5s");
+        $('#comparGaucheVitesse').text("280km/h");
+        $('#comparGauchePrix').text("700 000€"); 
+    });
+    $("#bouton32").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card32").css("border", "3px solid green");
+        $("#accordeon32").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/rolls_royce/cullinan/cullinan_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("ROLLS ROYCE CULLINAN COASTLINE");
+        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteMoteur').text("V12");
+        $('#comparDroitePuissance').text("618ch");
+        $('#comparDroiteCouple').text("912nm");
+        $('#comparDroiteAcceleration').text("5s");
+        $('#comparDroiteVitesse').text("280km/h");
+        $('#comparDroitePrix').text("700 000€"); 
+    });
+    $("#bouton116").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card116").css("border", "3px solid green");
+        $("#accordeon16").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/rolls_royce/ghost/ghost_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("ROLLS ROYCE GHOST");
+        $('#comparGaucheAnnee').text("2021");
+        $('#comparGaucheMoteur').text("V6");
+        $('#comparGauchePuissance').text("730ch");
+        $('#comparGaucheCouple').text("1020nm");
+        $('#comparGaucheAcceleration').text("4.4s");
+        $('#comparGaucheVitesse').text("280km/h");
+        $('#comparGauchePrix').text("400 000€");1
+    });
+    $("#bouton132").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card132").css("border", "3px solid green");
+        $("#accordeon32").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/rolls_royce/ghost/ghost_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("ROLLS ROYCE GHOST");
+        $('#comparDroiteAnnee').text("2021");
+        $('#comparDroiteMoteur').text("V6");
+        $('#comparDroitePuissance').text("730ch");
+        $('#comparDroiteCouple').text("1020nm");
+        $('#comparDroiteAcceleration').text("4.4s");
+        $('#comparDroiteVitesse').text("280km/h");
+        $('#comparDroitePrix').text("400 000€"); 
     });
 
 
