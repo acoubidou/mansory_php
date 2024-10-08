@@ -9,7 +9,7 @@ $(document).ready(function() {
         $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/aston_martin/dbx/dbx_avant.jpg");
         $('#lienImg1ComparGauche').attr("class","p-0");
         $('#comparGaucheNom').text("ASTON MARTIN DBX");
-        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheAnnee').text("2021");
         $('#comparGaucheMoteur').text("V8");
         $('#comparGauchePuissance').text("800ch");
         $('#comparGaucheCouple').text("1000nm");
@@ -25,7 +25,7 @@ $(document).ready(function() {
         $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/aston_martin/dbx/dbx_avant.jpg");
         $('#lienImg1ComparGauche').attr("class","p-0");
         $('#comparDroiteNom').text("ASTON MARTIN DBX");
-        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteAnnee').text("2021");
         $('#comparDroiteMoteur').text("V8");
         $('#comparDroitePuissance').text("800ch");
         $('#comparDroiteCouple').text("1000nm");
@@ -107,7 +107,7 @@ $(document).ready(function() {
         $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/bentley/bentayga/bentayga_avant.jpg");
         $('#lienImg1ComparGauche').attr("class","p-0");
         $('#comparGaucheNom').text("BENTLEY BENTAYGA");
-        $('#comparGaucheAnnee').text("2022");
+        $('#comparGaucheAnnee').text("2021");
         $('#comparGaucheMoteur').text("V12");
         $('#comparGauchePuissance').text("912ch");
         $('#comparGaucheCouple').text("1250nm");
@@ -123,7 +123,7 @@ $(document).ready(function() {
         $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/bentley/bentayga/bentayga_avant.jpg");
         $('#lienImg1ComparDroite').attr("class","p-0");
         $('#comparDroiteNom').text("BENTLEY BENTAYGA");
-        $('#comparDroiteAnnee').text("2022");
+        $('#comparDroiteAnnee').text("2021");
         $('#comparDroiteMoteur').text("V12");
         $('#comparDroitePuissance').text("912ch");
         $('#comparDroiteCouple').text("1250nm");
@@ -139,7 +139,7 @@ $(document).ready(function() {
         $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/bentley/flying_spur/flying_spur_avant.jpg");
         $('#lienImg1ComparGauche').attr("class","p-0");
         $('#comparGaucheNom').text("BENTLEY FLYING SPUR");
-        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheAnnee').text("2016");
         $('#comparGaucheMoteur').text("V12");
         $('#comparGauchePuissance').text("710ch");
         $('#comparGaucheCouple').text("1000nm");
@@ -155,7 +155,7 @@ $(document).ready(function() {
         $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/bentley/flying_spur/flying_spur_avant.jpg");
         $('#lienImg1ComparDroite').attr("class","p-0");
         $('#comparDroiteNom').text("BENTLEY FLYING SPUR");
-        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteAnnee').text("2016");
         $('#comparDroiteMoteur').text("V12");
         $('#comparDroitePuissance').text("710ch");
         $('#comparDroiteCouple').text("1000nm");
@@ -294,6 +294,369 @@ $(document).ready(function() {
         $('#comparDroiteVitesse').text("255km/h");
         $('#comparDroitePrix').text("150 000€"); 
     });
+    //FERRARI
+    $("#bouton7").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card7").css("border", "3px solid green");
+        $("#accordeon7").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/ferrari/812_gts/812_gts_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("FERRARI 812 GTS (STALLONE GTS)");
+        $('#comparGaucheAnnee').text("2021");
+        $('#comparGaucheMoteur').text("V12");
+        $('#comparGauchePuissance').text("840ch");
+        $('#comparGaucheCouple').text("740nm");
+        $('#comparGaucheAcceleration').text("2.8s");
+        $('#comparGaucheVitesse').text("345km/h");
+        $('#comparGauchePrix').text("650 000€"); 
+    });
+    $("#bouton23").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card23").css("border", "3px solid green");
+        $("#accordeon23").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/ferrari/812_gts/812_gts_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("FERRARI 812 GTS (STALLONE GTS)");
+        $('#comparDroiteAnnee').text("2021");
+        $('#comparDroiteMoteur').text("V12");
+        $('#comparDroitePuissance').text("840ch");
+        $('#comparDroiteCouple').text("740nm");
+        $('#comparDroiteAcceleration').text("2.8s");
+        $('#comparDroiteVitesse').text("345km/h");
+        $('#comparDroitePrix').text("650 000€"); 
+    });
+    $("#bouton107").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card107").css("border", "3px solid green");
+        $("#accordeon7").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/ferrari/sf90_spider/sf90_spider_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("FERRARI SF90 SPIDER");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("1115ch");
+        $('#comparGaucheCouple').text("980nm");
+        $('#comparGaucheAcceleration').text("2.4s");
+        $('#comparGaucheVitesse').text("355km/h");
+        $('#comparGauchePrix').text("1 200 000€"); 
+    });
+    $("#bouton123").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card123").css("border", "3px solid green");
+        $("#accordeon23").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/ferrari/sf90_spider/sf90_spider_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("FERRARI SF90 SPIDER");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("1115ch");
+        $('#comparDroiteCouple').text("980nm");
+        $('#comparDroiteAcceleration').text("2.4s");
+        $('#comparDroiteVitesse').text("355km/h");
+        $('#comparDroitePrix').text("1 200 000€"); 
+    });
+    //FORD
+    $("#bouton8").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card8").css("border", "3px solid green");
+        $("#accordeon8").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/ford/gt/gt_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("FORD GT (LE MANSORY)");
+        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheMoteur').text("V10");
+        $('#comparGauchePuissance').text("710ch");
+        $('#comparGaucheCouple').text("840nm");
+        $('#comparGaucheAcceleration').text("2.9s");
+        $('#comparGaucheVitesse').text("354km/h");
+        $('#comparGauchePrix').text("1 800 000€"); 
+    });
+    $("#bouton24").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card24").css("border", "3px solid green");
+        $("#accordeon24").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/ford/gt/gt_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("FORD GT (LE MANSORY)");
+        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteMoteur').text("V10");
+        $('#comparDroitePuissance').text("710ch");
+        $('#comparDroiteCouple').text("840nm");
+        $('#comparDroiteAcceleration').text("2.9s");
+        $('#comparDroiteVitesse').text("354km/h");
+        $('#comparDroitePrix').text("1 800 000€"); 
+    });
+    //LAMBORGHINI
+    $("#bouton9").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card9").css("border", "3px solid green");
+        $("#accordeon9").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/lamborghini/urus/urus_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("LAMBORGHINI URUS (VENATUS EVO)");
+        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("912ch");
+        $('#comparGaucheCouple').text("1100nm");
+        $('#comparGaucheAcceleration').text("2.9s");
+        $('#comparGaucheVitesse').text("323km/h");
+        $('#comparGauchePrix').text("780 000€");1
+    });
+    $("#bouton25").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card25").css("border", "3px solid green");
+        $("#accordeon25").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/lamborghini/urus/urus_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("LAMBORGHINI URUS (VENATUS EVO)");
+        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("912ch");
+        $('#comparDroiteCouple').text("1100nm");
+        $('#comparDroiteAcceleration').text("2.9s");
+        $('#comparDroiteVitesse').text("323km/h");
+        $('#comparDroitePrix').text("780 000€"); 
+    });
+    $("#bouton109").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card109").css("border", "3px solid green");
+        $("#accordeon9").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/lamborghini/aventador_svj_roadster/aventador_svj_roadster_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("LAMBORGHINI AVENTADOR SVJ ROADSTER (CARBONADO GTS)");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V12");
+        $('#comparGauchePuissance').text("831ch");
+        $('#comparGaucheCouple').text("780nm");
+        $('#comparGaucheAcceleration').text("2.8s");
+        $('#comparGaucheVitesse').text("355km/h");
+        $('#comparGauchePrix').text("2 600 000€"); 
+    });
+    $("#bouton125").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card125").css("border", "3px solid green");
+        $("#accordeon25").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/lamborghini/aventador_svj_roadster/aventador_svj_roadster_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("LAMBORGHINI AVENTADOR SVJ ROADSTER (CARBONADO GTS)");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V12");
+        $('#comparDroitePuissance').text("831ch");
+        $('#comparDroiteCouple').text("780nm");
+        $('#comparDroiteAcceleration').text("2.8s");
+        $('#comparDroiteVitesse').text("355km/h");
+        $('#comparDroitePrix').text("2 600 000€"); 
+    });
+    //LAND ROVER
+    $("#bouton10").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card10").css("border", "3px solid green");
+        $("#accordeon10").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/land_rover/sv/sv_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("LAND ROVER RANGE ROVER SV LWB (MANSORY HERITAGE)");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("600ch");
+        $('#comparGaucheCouple').text("835nm");
+        $('#comparGaucheAcceleration').text("4.7s");
+        $('#comparGaucheVitesse').text("280km/h");
+        $('#comparGauchePrix').text("500 000€"); 
+    });
+    $("#bouton26").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card26").css("border", "3px solid green");
+        $("#accordeon26").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/land_rover/sv/sv_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("LAND ROVER RANGE ROVER SV LWB (MANSORY HERITAGE)");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("600ch");
+        $('#comparDroiteCouple').text("835nm");
+        $('#comparDroiteAcceleration').text("4.7s");
+        $('#comparDroiteVitesse').text("280km/h");
+        $('#comparDroitePrix').text("500 000€"); 
+    });
+    //LOTUS
+    $("#bouton11").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card11").css("border", "3px solid green");
+        $("#accordeon11").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/lotus/evora_gte/evora_gte_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("LOTUS EVORA GTE");
+        $('#comparGaucheAnnee').text("2015");
+        $('#comparGaucheMoteur').text("V6");
+        $('#comparGauchePuissance').text("444ch");
+        $('#comparGaucheCouple').text("420nm");
+        $('#comparGaucheAcceleration').text("3.7s");
+        $('#comparGaucheVitesse').text("315km/h");
+        $('#comparGauchePrix').text("150 000€"); 
+    });
+    $("#bouton27").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card27").css("border", "3px solid green");
+        $("#accordeon27").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/lotus/evora_gte/evora_gte_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("LOTUS EVORA GTE");
+        $('#comparDroiteAnnee').text("2015");
+        $('#comparDroiteMoteur').text("V6");
+        $('#comparDroitePuissance').text("444ch");
+        $('#comparDroiteCouple').text("420nm");
+        $('#comparDroiteAcceleration').text("3.7s");
+        $('#comparDroiteVitesse').text("315km/h");
+        $('#comparDroitePrix').text("150 000€"); 
+    });
+    //MASERATI
+    $("#bouton12").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card12").css("border", "3px solid green");
+        $("#accordeon12").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/maserati/mc20/mc20_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("MASERATI MC20");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V6");
+        $('#comparGauchePuissance').text("730ch");
+        $('#comparGaucheCouple').text("850nm");
+        $('#comparGaucheAcceleration').text("2.7s");
+        $('#comparGaucheVitesse').text("330km/h");
+        $('#comparGauchePrix').text("450 000€"); 
+    });
+    $("#bouton28").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card28").css("border", "3px solid green");
+        $("#accordeon28").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/maserati/mc20/mc20_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("MASERATI MC20");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V6");
+        $('#comparDroitePuissance').text("730ch");
+        $('#comparDroiteCouple').text("850nm");
+        $('#comparDroiteAcceleration').text("2.7s");
+        $('#comparDroiteVitesse').text("330km/h");
+        $('#comparDroitePrix').text("450 000€"); 
+    });
+    //MCLAREN
+    $("#bouton13").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card13").css("border", "3px solid green");
+        $("#accordeon13").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/mclaren/720S/720S_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("MCLAREN 720S");
+        $('#comparGaucheAnnee').text("2018");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("75ch");
+        $('#comparGaucheCouple').text("770nm");
+        $('#comparGaucheAcceleration').text("2.8s");
+        $('#comparGaucheVitesse').text("345km/h");
+        $('#comparGauchePrix').text("450 000€"); 
+    });
+    $("#bouton29").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card29").css("border", "3px solid green");
+        $("#accordeon29").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/mclaren/720S/720S_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparDroiteNom').text("MCLAREN 720S");
+        $('#comparDroiteAnnee').text("2018");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("75ch");
+        $('#comparDroiteCouple').text("770nm");
+        $('#comparDroiteAcceleration').text("2.8s");
+        $('#comparDroiteVitesse').text("345km/h");
+        $('#comparDroitePrix').text("450 000€"); 
+    });
+    //MERCEDES
+    $("#bouton14").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card14").css("border", "3px solid green");
+        $("#accordeon14").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("MERCEDES AMG GT63 S E PERFORMANCE");
+        $('#comparGaucheAnnee').text("2023");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("892ch");
+        $('#comparGaucheCouple').text("1490nm");
+        $('#comparGaucheAcceleration').text("2.8s");
+        $('#comparGaucheVitesse').text("320km/h");
+        $('#comparGauchePrix').text("300 000€"); 
+    });
+    $("#bouton30").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card30").css("border", "3px solid green");
+        $("#accordeon30").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("MERCEDES AMG GT63 S E PERFORMANCE");
+        $('#comparDroiteAnnee').text("2023");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("892ch");
+        $('#comparDroiteCouple').text("1490nm");
+        $('#comparDroiteAcceleration').text("2.8s");
+        $('#comparDroiteVitesse').text("320km/h");
+        $('#comparDroitePrix').text("300 000€"); 
+    });
+    $("#bouton114").on("click", function() {
+        $(".cardAllGauche").css("border", "");
+        $(".accordeonAllGauche").css("border", "");
+        $("#card114").css("border", "3px solid green");
+        $("#accordeon14").css("border", "3px solid green");
+        $('#lienImg1ComparGauche').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparGauche').attr("class","p-0");
+        $('#comparGaucheNom').text("LAMBORGHINI URUS (VENATUS EVO)");
+        $('#comparGaucheAnnee').text("2020");
+        $('#comparGaucheMoteur').text("V8");
+        $('#comparGauchePuissance').text("912ch");
+        $('#comparGaucheCouple').text("1100nm");
+        $('#comparGaucheAcceleration').text("2.9s");
+        $('#comparGaucheVitesse').text("323km/h");
+        $('#comparGauchePrix').text("780 000€");1
+    });
+    $("#bouton130").on("click", function() {
+        $(".cardAllDroite").css("border", "");
+        $(".accordeonAllDroite").css("border", "");
+        $("#card130").css("border", "3px solid green");
+        $("#accordeon30").css("border", "3px solid green");
+        $('#lienImg1ComparDroite').attr("src","/mansory_php/assets/images/voitures/mercedes/amg_gt63_s_e_performance/amg_gt63_s_e_performance_avant.jpg");
+        $('#lienImg1ComparDroite').attr("class","p-0");
+        $('#comparDroiteNom').text("LAMBORGHINI URUS (VENATUS EVO)");
+        $('#comparDroiteAnnee').text("2020");
+        $('#comparDroiteMoteur').text("V8");
+        $('#comparDroitePuissance').text("912ch");
+        $('#comparDroiteCouple').text("1100nm");
+        $('#comparDroiteAcceleration').text("2.9s");
+        $('#comparDroiteVitesse').text("323km/h");
+        $('#comparDroitePrix').text("780 000€"); 
+    });
+
+
+
 
     $(".boutonAll").on("click", function(){
         var AnneeGauche = $('#comparGaucheAnnee').text();
