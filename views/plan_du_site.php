@@ -21,6 +21,7 @@
                     $pages = [
                         ["/mansory_php/index","Accueil"],
                         ["voitures_marques","Voitures"],
+                        ["comparateur","Comparateur"],
                         ["a_propos_de_nous","A propos de nous"],
                         ["nous_contacter","Nous contacter"],
                         ["nous_trouver","Nous Trouver"],

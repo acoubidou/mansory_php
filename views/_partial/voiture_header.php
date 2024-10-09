@@ -11,7 +11,7 @@
                   elseif ($strBesoinMarques == "Non") {echo '<button type="button" class="btn btn-lg btn-secondary" disabled>Marques</button>';}
                   else {echo '<a href="'.$strVoituresMarques.'.php"><button type="button" class="btn btn-lg btn-outline-dark">Marques</button></a>';}?> 
             <?php 
-                  if ($strPage == "voitures_visu") { echo '<button type="button" class="btn btn-lg btn-secondary">Voitures</button>';}
+                  if ($strPage == "voitures_visu") { echo '<button type="button" class="btn btn-lg btn-secondary" disabled>Voitures</button>';}
                   elseif ($strBesoinVoitures == "Non") {echo '<button type="button" class="btn btn-lg btn-secondary" disabled>Voitures</button>';}
                   else {echo '<a href="'.$strVoituresVisu.'.php"><button type="button" class="btn btn-lg btn-outline-dark">Voitures</button></a>';}?> 
             <ul class="navbar-nav">

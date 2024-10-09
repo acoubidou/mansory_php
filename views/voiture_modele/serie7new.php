@@ -53,7 +53,7 @@
 
     // Vidéo YTB
     $strTitreVideo = "DECOUVREZ LA MANSORY BMW SERIE 7 NEW EN VIDEO";
-    $strLienVideo = "https://www.youtube.com/embed/6qvKptGr2Eg?si=GzjXmRQReW6F4IfU";
+    $strLienVideo = "https://www.youtube.com/embed/R54kE1uhb50?si=f29WIyqcvYKTXQfx";
     include("../_partial/modele_voiture.php");
 
     include("../_partial/footer.php"); 

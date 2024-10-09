@@ -374,7 +374,7 @@ $(document).ready(function() {
         $('#comparGaucheCouple').text("840nm");
         $('#comparGaucheAcceleration').text("2.9s");
         $('#comparGaucheVitesse').text("354km/h");
-        $('#comparGauchePrix').text("1 800 000€"); 
+        $('#comparGauchePrix').text("2 100 000€"); 
     });
     $("#bouton24").on("click", function() {
         $(".cardAllDroite").css("border", "");
@@ -390,7 +390,7 @@ $(document).ready(function() {
         $('#comparDroiteCouple').text("840nm");
         $('#comparDroiteAcceleration').text("2.9s");
         $('#comparDroiteVitesse').text("354km/h");
-        $('#comparDroitePrix').text("1 800 000€"); 
+        $('#comparDroitePrix').text("2 100 000€"); 
     });
     //LAMBORGHINI
     $("#bouton9").on("click", function() {
@@ -759,7 +759,7 @@ $(document).ready(function() {
     $(".boutonAll").on("click", function(){
         var AnneeGauche = $('#comparGaucheAnnee').text();
         var AnneeDroite = $('#comparDroiteAnnee').text();
-        if (AnneeGauche && AnneeDroite != "-"){
+        if (AnneeGauche != "-" && AnneeDroite != "-"){
             console.log(AnneeGauche);
             console.log(AnneeGauche.length);
             if (AnneeDroite > AnneeGauche) {
@@ -775,7 +775,7 @@ $(document).ready(function() {
         }
         var MoteurGauche = $('#comparGaucheMoteur').text();
         var MoteurDroite = $('#comparDroiteMoteur').text();
-        if (MoteurGauche && MoteurDroite != "-"){
+        if (MoteurGauche != "-" && MoteurDroite != "-"){
             MoteurDroite = MoteurDroite.substr(1);
             MoteurGauche = MoteurGauche.substr(1);
             if (Number(MoteurDroite) > Number(MoteurGauche)) {  
@@ -791,7 +791,7 @@ $(document).ready(function() {
         }
         var PuissanceGauche = $('#comparGauchePuissance').text();
         var PuissanceDroite = $('#comparDroitePuissance').text();
-        if (PuissanceGauche && PuissanceDroite != "-"){
+        if (PuissanceGauche != "-" && PuissanceDroite != "-"){
             PuissanceDroite = PuissanceDroite.slice(0, -2);
             PuissanceGauche = PuissanceGauche.slice(0, -2);
             if (Number(PuissanceDroite) > Number(PuissanceGauche)) {
@@ -807,7 +807,7 @@ $(document).ready(function() {
         }
         var CoupleGauche = $('#comparGaucheCouple').text();
         var CoupleDroite = $('#comparDroiteCouple').text();
-        if (CoupleGauche && CoupleDroite != "-"){
+        if (CoupleGauche != "-" && CoupleDroite != "-"){
             CoupleDroite = CoupleDroite.slice(0, -2);
             CoupleGauche = CoupleGauche.slice(0, -2);
             if (Number(CoupleDroite) > Number(CoupleGauche)) {
@@ -823,7 +823,7 @@ $(document).ready(function() {
         }
         var AccelerationGauche = $('#comparGaucheAcceleration').text();
         var AccelerationDroite = $('#comparDroiteAcceleration').text();
-        if (AccelerationGauche && AccelerationDroite != "-"){
+        if (AccelerationGauche != "-" && AccelerationDroite != "-"){
             AccelerationDroite = AccelerationDroite.slice(0, -1);
             AccelerationGauche = AccelerationGauche.slice(0, -1);
             if (Number(AccelerationDroite) < Number(AccelerationGauche)) {
@@ -839,7 +839,7 @@ $(document).ready(function() {
         }
         var VitesseGauche = $('#comparGaucheVitesse').text();
         var VitesseDroite = $('#comparDroiteVitesse').text();
-        if (VitesseGauche && VitesseDroite != "-"){
+        if (VitesseGauche != "-" && VitesseDroite != "-"){
             VitesseDroite = VitesseDroite.slice(0, -4);
             VitesseGauche = VitesseGauche.slice(0, -4);
             if (Number(VitesseDroite) > Number(VitesseGauche)) {
@@ -855,7 +855,7 @@ $(document).ready(function() {
         }
         var PrixGauche = $('#comparGauchePrix').text();
         var PrixDroite = $('#comparDroitePrix').text();
-        if (PrixGauche && PrixDroite != "-"){
+        if (PrixGauche != "-" && PrixDroite != "-"){
             PrixDroite = PrixDroite.replace(/\s+/g, '');
             PrixDroite = PrixDroite.slice(0, -1);
             PrixGauche = PrixGauche.replace(/\s+/g, '');

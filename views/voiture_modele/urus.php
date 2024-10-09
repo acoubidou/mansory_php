@@ -42,7 +42,7 @@
 
     // Vidéo YTB
     $strTitreVideo = "DECOUVREZ LA MANSORY VENATUS EVO EN VIDEO";
-    $strLienVideo = "https://www.youtube.com/embed/RY5hm-x0ikg?si=W16MCfpgmaoQ3RPR";
+    $strLienVideo = "https://www.youtube.com/embed/Pfso_cGnNfw?si=RksXwWSCYcH_hhY3";
     include("../_partial/modele_voiture.php");
 
     include("../_partial/footer.php"); 

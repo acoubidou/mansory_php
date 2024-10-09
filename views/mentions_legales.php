@@ -84,7 +84,7 @@
         <p>Dès que <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> a connaissance du décès d’un Utilisateur et à défaut d’instructions de sa part, <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> s’engage à détruire ses données, sauf si leur conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.</p>
         <p>Si l’Utilisateur souhaite savoir comment <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> utilise ses Données Personnelles, demander à les rectifier ou s’oppose à leur traitement, l’Utilisateur peut contacter <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> par écrit à l’adresse suivante : </p>
         ACHBANI Sami – DPO, ACHBANI Sami <br>
-        36 rue du agagaga 68270 Wittenheim.
+        36 rue du agagaga 68200 Mulhouse.
         <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport). </p>
         <p>
         Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (<a href="https://www.cnil.fr/fr/plaintes" target="_blank">https://www.cnil.fr/fr/plaintes</a>).</p>
@@ -145,7 +145,7 @@
         </p><h2>10. Droit applicable et attribution de juridiction.</h2>  
         <p>
         Tout litige en relation avec l’utilisation du site <a href="https://www.samiachbani.fr" target="_blank">samiachbani.fr</a> est soumis au droit français. 
-        En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Wittenheim</p>
+        En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Mulhouse</p>
     </div>
 </main> 
 
