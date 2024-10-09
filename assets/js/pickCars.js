@@ -734,7 +734,7 @@ $(document).ready(function() {
         $('#comparGaucheCouple').text("1020nm");
         $('#comparGaucheAcceleration').text("4.4s");
         $('#comparGaucheVitesse').text("280km/h");
-        $('#comparGauchePrix').text("400 000€");1
+        $('#comparGauchePrix').text("440 000€");1
     });
     $("#bouton132").on("click", function() {
         $(".cardAllDroite").css("border", "");
@@ -750,7 +750,7 @@ $(document).ready(function() {
         $('#comparDroiteCouple').text("1020nm");
         $('#comparDroiteAcceleration').text("4.4s");
         $('#comparDroiteVitesse').text("280km/h");
-        $('#comparDroitePrix').text("400 000€"); 
+        $('#comparDroitePrix').text("440 000€"); 
     });
 
 
@@ -760,6 +760,8 @@ $(document).ready(function() {
         var AnneeGauche = $('#comparGaucheAnnee').text();
         var AnneeDroite = $('#comparDroiteAnnee').text();
         if (AnneeGauche && AnneeDroite != "-"){
+            console.log(AnneeGauche);
+            console.log(AnneeGauche.length);
             if (AnneeDroite > AnneeGauche) {
                 $("#comparDroiteAnneeCase").css("border", "3px solid green");
                 $("#comparGaucheAnneeCase").css("border", "1px solid black");
